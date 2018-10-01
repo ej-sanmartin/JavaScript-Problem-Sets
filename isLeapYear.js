@@ -3,9 +3,8 @@
 */
 
 function isLeapYear(yr){
-	let year = (yr % 100 === 0) ? (yr % 400 === 0) : (yr % 4 === 0);
-  console.log(year);
-  
+  let year = (yr % 100 === 0) ? (yr % 400 === 0) : (yr % 4 === 0);
+  console.log(year);  
 }
 
 isLeapYear(2004);
