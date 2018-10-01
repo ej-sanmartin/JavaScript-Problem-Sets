@@ -13,7 +13,7 @@ function currentDate(){
   let countDOA = 0;
   // Case for if it is Sunday and dayOfWeek and countDOA are already the same, sets dayName to string "Sunday"
   if(dayOfWeek === countDOA){
-  	dayName = dOW[0];
+    dayName = dOW[0];
   }
   // loops up, if matches then sets dayName to corresponding day from dOW object
   while(dayOfWeek !== countDOA){
