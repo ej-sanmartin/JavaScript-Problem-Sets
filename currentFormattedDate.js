@@ -18,7 +18,7 @@ function currentDate(){
   // loops up, if matches then sets dayName to corresponding day from dOW object
   while(dayOfWeek !== countDOA){
     if(dayOfWeek === countDOA){
-  	  dayName = dOW[countDOA];
+      dayName = dOW[countDOA];
     }
     countDOA++;
   }
