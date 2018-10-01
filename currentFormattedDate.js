@@ -29,10 +29,10 @@ function currentDate(){
   let seconds = day.getSeconds();
   // Checks for Noon and Midnight
   if(hour === 0 && minutes === 0 && seconds === 0){
-  	return console.log("Midnight");
+    return console.log("Midnight");
   }
   if(hour === 12 && minutes === 0 && seconds === 0){
-  	return console.log("Noon");
+    return console.log("Noon");
   }
   console.log(`Today is : ${dayName} \nCurrent time is : ${hour} : ${minutes} : ${seconds}`);
 }
