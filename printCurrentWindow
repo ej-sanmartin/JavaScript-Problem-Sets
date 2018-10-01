@@ -3,8 +3,8 @@
 */
 
 // Will literally print out your current window of your computer screen
-function print_window(){
+function printWindow(){
   window.print();
 }
 
-print_window();
+printWindow();
