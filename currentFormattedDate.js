@@ -24,7 +24,7 @@ function currentDate(){
   }
   let hours = day.getHours();
   // Since question doesn't expect military time, checks hours and changes output accordingly between AM and PM
-  let hour = (hours >= 12)? hours = `${hours - 12} PM` :	hours = `${hours} AM`;
+  let hour = (hours >= 12) ? hours =  `${hours - 12} PM` : hours = `${hours} AM`;
   let minutes = day.getMinutes();
   let seconds = day.getSeconds();
   // Checks for Noon and Midnight
