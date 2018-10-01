@@ -5,7 +5,7 @@
 */
 
 function currentDate(){
-	let day = new Date();
+  let day = new Date();
   // Returns a number representing day of the week (ex: 0 = Sunday, 1 = Monday, etc)
   let dayOfWeek = day.getDay();
   let dOW = {0: "Sunday", 1: "Monday", 2: "Tuesday", 3: "Wednesday", 4: "Thursday", 5: "Friday", 6: "Saturday"};
